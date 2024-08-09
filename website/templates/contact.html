@@ -1,2 +1,47 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container-fluid justify-content-center">
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <h1>Contact</h1>
+            <p class="fs-5">Donec ullamcorper nulla non metus auctor fringila. Vestibulum id ligula porta felis euismod semper.
+                Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dabipus, tellus ac cursus
+                commodo.</p>
+        </div>
+
+    </div>
+    <!-- row que contiene el card con la forma -->
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <!-- forma -->
+                    <form>
+                        <!-- row que contiene el input y label de email -->
+                        <div class="row mb-3">
+                            <div class="col-4 col-xl-2 justify-content-start text-start text-xl-end">
+                                <label for="email-input" class="form-label fw-bold">Your E-mail</label>
+                            </div>
+                            <div class="col-12 col-xl-10">
+                                <input type="text" id="email-input" class="form-control" placeholder="Your email">
+                            </div>
+                        </div>
+                        <!-- row que contiene el input y label de message -->
+                        <div class="row mb-3">
+                            <div class="col-4 col-xxl-2 justify-content-start text-start text-xxl-end">
+                                <label for="message-input" class="form-floating mb-2 fw-bold">Your message</label>
+                            </div>
+                            <div class="col-12 col-xxl-10">
+                                <textarea id="message-input" class="form-control" rows="5"
+                                    placeholder="Please enter your message here..."></textarea>
+                            </div>
+                        </div>
+                        <!-- div que contiene el button submit -->
+                        <div class="d-flex flex-row justify-content-end">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
